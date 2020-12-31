@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var audio = document.getElementById('music');
   var isAudioStarted = false;
   var isAudioPlay = false;
-  var events = ['mousedown', 'keydown'];
+  var events = ['mousedown', 'keydown', 'touchstart'];
 
   function autoStartAudio() {
     if (isAudioStarted) return;
