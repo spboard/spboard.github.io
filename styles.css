@@ -1,0 +1,92 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+html {
+	background-color: #2f2f2f;
+}
+
+a,
+label {
+	-webkit-tap-highlight-color: transparent;
+}
+
+img {
+	max-width: 100%;
+}
+
+sup {
+	vertical-align: super;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+body,
+p {
+	margin: 0;
+}
+
+audio {
+	position: absolute;
+	left: 0;
+	right: 0;
+	opacity: 0;
+}
+
+#audio {
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	overflow: visible;
+	text-align: inherit;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
+
+	/* inherit font & color from ancestor */
+	color: inherit;
+	font: inherit;
+
+	/* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+	line-height: normal;
+
+	/* Corrects font smoothing for webkit */
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+
+	/* Corrects inability to style clickable `input` types in iOS */
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+
+	z-index: 20000;
+	position: fixed;
+	opacity: 0.25;
+	transition: opacity 0.3s ease-out;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	right: 20px;
+	bottom: 20px;
+	width: 32px;
+	height: 32px;
+	background-color: white;
+	border-radius: 2px;
+}
+
+#audio:hover {
+	opacity: 1;
+}
+
+/* Remove excess padding and border in Firefox 4+ */
+#audio::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
