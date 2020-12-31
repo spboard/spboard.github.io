@@ -8,14 +8,14 @@
         <front url="images/front.jpg?1609328464"/>
         <right url="images/right.jpg?1609328464"/>
         <back url="images/back.jpg?1609328464"/>
-        <up url="images/up.jpg?1609328464"/>
+        <up url="images/up_new.jpg?1609328465"/>
         <down url="images/down.jpg?1609328464"/>
         <mobile>
             <left url="images/left.jpg?1609328464"/>
             <front url="images/front.jpg?1609328464"/>
             <right url="images/right.jpg?1609328464"/>
             <back url="images/back.jpg?1609328464"/>
-            <up url="images/up.jpg?1609328464"/>
+            <up url="images/up_new.jpg?1609328465"/>
             <down url="images/down.jpg?1609328464"/>
         </mobile>
     </image>
